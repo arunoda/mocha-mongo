@@ -1,7 +1,6 @@
-var assert      = require('assert');
-var MochaMongo  = require('../');
+var assert  = require('assert');
 
-var db = new MochaMongo('mongodb://localhost');
+var db = require('../')('mongodb://localhost');
 var ready = db.ready();
 var cleanC = db.cleanCollections(['coll1', 'coll2']);
 var drop = db.drop();

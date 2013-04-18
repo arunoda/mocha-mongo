@@ -8,9 +8,7 @@ Set of mongodb testing helpers for mocha
 ### Initialization
 
 ~~~js
-
-var mongoMocha = require('mongo-mocha');
-var mongo = mongoMocha('mongodb://localhost');
+var mongo = require('mongo-mocha')('mongodb://localhost');
 ~~~
 
 ### Using the db in tests
@@ -28,7 +26,7 @@ test('using the db', ready(function(db, done) {
 
 We need to ensure collections are cleaned before running the test.
 
-~~~
+~~~js
 var clean = mongo.cleanCollections(['coll1', 'coll2']); //only need to create this once
 
 test('test using cleaned collections', clean(function(db, done) {
