@@ -9,7 +9,7 @@ suite('MochaMongo', function() {
 
     suite('.ready()', function() {
 
-        test('with a correct url', ready(function(db, done) {
+        test('use db in tests directly', ready(function(db, done) {
 
             assert.ok(db);
             done();
