@@ -1,4 +1,4 @@
-mocha-mongo
+mocha-mongo [![Build Status](https://travis-ci.org/arunoda/mocha-mongo.png?branch=master)](https://travis-ci.org/arunoda/mocha-mongo)
 ===========
 
 Set of mongodb testing helpers for mocha
