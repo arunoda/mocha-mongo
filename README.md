@@ -8,7 +8,7 @@ Set of mongodb testing helpers for mocha
 ### Initialization
 
 ~~~js
-var mongo = require('mongo-mocha')('mongodb://localhost');
+var mongo = require('mocha-mongo')('mongodb://localhost');
 ~~~
 
 ### Using the db in tests
