@@ -1,6 +1,6 @@
 {
   "name": "mocha-mongo",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Set of mongodb testing helpers for mocha",
   "keywords": [
     "mocha",
@@ -18,7 +18,7 @@
     "test": "./node_modules/.bin/mocha -u tdd -R spec test"
   },
   "dependencies": {
-    "mongodb": "1.4.x",
+    "mongodb": "^2.2.24",
     "qbox": "0.1.x"
   },
   "devDependencies": {
